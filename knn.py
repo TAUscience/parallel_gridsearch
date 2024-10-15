@@ -30,10 +30,7 @@ def evaluate_knn(lock, hyperparameter_set, X_train, X_test, y_train, y_test):
         lock.acquire()
         accuracy = accuracy_score(y_test,y_pred)
         recall = recall_score(y_test,y_pred)
-        print(f"n_neighbors: {subset["n_neighbors"]}, 
-              weights: {subset["weights"]}, 
-              algorithm: {subset["algorithm"]}, 
-              p: {subset["p"]}, acc: {accuracy}, recall: {recall}")
+        print(f"n_neighbors: {subset['n_neighbors']}, weights: {subset['weights']}, algorithm: {subset['algorithm']}, p: {subset['p']}, acc: {accuracy}, recall: {recall}")
         lock.release()
 
 
