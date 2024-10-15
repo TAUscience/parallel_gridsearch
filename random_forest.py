@@ -1,0 +1,1 @@
+"Agregar la función a paralelizar y los parámetros"
