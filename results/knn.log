@@ -1,0 +1,38 @@
+Success data load
+n_neighbors: 5, weights: uniform, algorithm: ball_tree, p: 1, acc: 0.9274548931570633, recall: 0.0047875523638539795
+n_neighbors: 5, weights: uniform, algorithm: ball_tree, p: 2, acc: 0.9272054543942795, recall: 0.004189108318372232
+n_neighbors: 5, weights: uniform, algorithm: kd_tree, p: 1, acc: 0.9274548931570633, recall: 0.0047875523638539795
+n_neighbors: 5, weights: uniform, algorithm: kd_tree, p: 2, acc: 0.9272054543942795, recall: 0.004189108318372232
+n_neighbors: 5, weights: distance, algorithm: ball_tree, p: 1, acc: 0.9209694853246861, recall: 0.017953321364452424
+n_neighbors: 5, weights: distance, algorithm: ball_tree, p: 2, acc: 0.9183919514425876, recall: 0.02154398563734291
+n_neighbors: 5, weights: distance, algorithm: kd_tree, p: 1, acc: 0.9209694853246861, recall: 0.017953321364452424
+n_neighbors: 5, weights: distance, algorithm: kd_tree, p: 2, acc: 0.9183919514425876, recall: 0.02154398563734291
+Success data load
+n_neighbors: 10, weights: uniform, algorithm: ball_tree, p: 1, acc: 0.9304065851833375, recall: 0.0
+n_neighbors: 10, weights: uniform, algorithm: ball_tree, p: 2, acc: 0.9304897314375987, recall: 0.0
+n_neighbors: 10, weights: uniform, algorithm: kd_tree, p: 1, acc: 0.9304065851833375, recall: 0.0
+n_neighbors: 10, weights: uniform, algorithm: kd_tree, p: 2, acc: 0.9304897314375987, recall: 0.0
+n_neighbors: 10, weights: distance, algorithm: ball_tree, p: 1, acc: 0.9278706244283695, recall: 0.004189108318372232
+n_neighbors: 10, weights: distance, algorithm: ball_tree, p: 2, acc: 0.9274964662841939, recall: 0.005984440454817474
+n_neighbors: 10, weights: distance, algorithm: kd_tree, p: 1, acc: 0.9278706244283695, recall: 0.004189108318372232
+n_neighbors: 10, weights: distance, algorithm: kd_tree, p: 2, acc: 0.9274964662841939, recall: 0.005984440454817474
+Success data load
+n_neighbors: 13, weights: uniform, algorithm: ball_tree, p: 1, acc: 0.9304897314375987, recall: 0.0
+n_neighbors: 13, weights: uniform, algorithm: ball_tree, p: 2, acc: 0.9304481583104681, recall: 0.0
+n_neighbors: 13, weights: uniform, algorithm: kd_tree, p: 1, acc: 0.9304897314375987, recall: 0.0
+n_neighbors: 13, weights: uniform, algorithm: kd_tree, p: 2, acc: 0.9304481583104681, recall: 0.0
+n_neighbors: 13, weights: distance, algorithm: ball_tree, p: 1, acc: 0.9294919763864637, recall: 0.002992220227408737
+n_neighbors: 13, weights: distance, algorithm: ball_tree, p: 2, acc: 0.9286605138438513, recall: 0.004189108318372232
+n_neighbors: 13, weights: distance, algorithm: kd_tree, p: 1, acc: 0.9294919763864637, recall: 0.002992220227408737
+n_neighbors: 13, weights: distance, algorithm: kd_tree, p: 2, acc: 0.9286605138438513, recall: 0.004189108318372232
+Success data load
+n_neighbors: 15, weights: uniform, algorithm: ball_tree, p: 1, acc: 0.9305313045647293, recall: 0.0
+n_neighbors: 15, weights: uniform, algorithm: ball_tree, p: 2, acc: 0.9305313045647293, recall: 0.0
+n_neighbors: 15, weights: uniform, algorithm: kd_tree, p: 1, acc: 0.9305313045647293, recall: 0.0
+n_neighbors: 15, weights: uniform, algorithm: kd_tree, p: 2, acc: 0.9305313045647293, recall: 0.0
+n_neighbors: 15, weights: distance, algorithm: ball_tree, p: 1, acc: 0.9297829882763782, recall: 0.0023937761819269898
+n_neighbors: 15, weights: distance, algorithm: ball_tree, p: 2, acc: 0.9289099526066351, recall: 0.002992220227408737
+n_neighbors: 15, weights: distance, algorithm: kd_tree, p: 1, acc: 0.9297829882763782, recall: 0.0023937761819269898
+n_neighbors: 15, weights: distance, algorithm: kd_tree, p: 2, acc: 0.9289099526066351, recall: 0.002992220227408737
+Success data load
+Program finished in 64.33045240002684 seconds

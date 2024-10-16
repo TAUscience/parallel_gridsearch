@@ -9,7 +9,7 @@ from random_forest import evaluate_rf as erf
 import data.load_data as ld
 
 MODEL = 1
-N_THREADS = 1
+N_THREADS = 4
 threads = []
 
 X_train, X_test, y_train, y_test = ld.load_data()
