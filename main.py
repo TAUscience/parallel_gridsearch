@@ -35,6 +35,23 @@ if (MODEL == 1):
         print(f"Program finished in {finish_time-start_time} seconds")
 
 elif (MODEL == 2):
-    "Añadir modelo en paralelo de random forest"
+    splits = lloads(rf_comb, N_THREADS) 
+    lock = multiprocess.Lock()
+
+    if __name__ == "__main__":
+        for i in range(N_THREADS):
+            threads.append(multiprocess.Process(target = erf, args=(lock, splits[i], X_train, X_test, y_train, y_test)))
+        
+        start_time = time.perf_counter()
+        
+        # Lanzar los procesos
+        for thread in threads:
+            thread.start()
+        # Esperar a que todos los procesos terminen
+        for thread in threads:
+            thread.join()
+
+        finish_time = time.perf_counter()
+        print(f"Program finished in {finish_time - start_time:.2f} seconds")
 else:
     print("Modelo no válido")
