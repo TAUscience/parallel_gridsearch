@@ -12,7 +12,7 @@ hiper_grid_rf = {
 keys_rf, values_rf = zip(*hiper_grid_rf.items())
 combinations_rf = [dict(zip(keys_rf, v)) for v in itertools.product(*values_rf)]
 
-def evaluate_rf(hyperparameter_set, lock, X_train, X_test, y_train, y_test):
+def evaluate_rf(lock, hyperparameter_set, X_train, X_test, y_train, y_test):
     from sklearn.ensemble import RandomForestClassifier
     from sklearn.metrics import accuracy_score
     from sklearn.metrics import recall_score

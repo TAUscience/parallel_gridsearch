@@ -1,0 +1,42 @@
+Success data load
+n_estimators: 100, criterion: gini, min_samples_split: 2, bootstrap: True, acc: 0.9324, recall: 0.1610
+n_estimators: 100, criterion: gini, min_samples_split: 2, bootstrap: False, acc: 0.9324, recall: 0.1795
+n_estimators: 100, criterion: gini, min_samples_split: 3, bootstrap: True, acc: 0.9326, recall: 0.1604
+n_estimators: 100, criterion: gini, min_samples_split: 3, bootstrap: False, acc: 0.9316, recall: 0.1759
+n_estimators: 100, criterion: entropy, min_samples_split: 2, bootstrap: True, acc: 0.9329, recall: 0.1580
+n_estimators: 100, criterion: entropy, min_samples_split: 2, bootstrap: False, acc: 0.9326, recall: 0.1765
+n_estimators: 100, criterion: entropy, min_samples_split: 3, bootstrap: True, acc: 0.9336, recall: 0.1658
+n_estimators: 100, criterion: entropy, min_samples_split: 3, bootstrap: False, acc: 0.9319, recall: 0.1759
+n_estimators: 100, criterion: log_loss, min_samples_split: 2, bootstrap: True, acc: 0.9332, recall: 0.1604
+Success data load
+n_estimators: 100, criterion: log_loss, min_samples_split: 2, bootstrap: False, acc: 0.9324, recall: 0.1789
+n_estimators: 100, criterion: log_loss, min_samples_split: 3, bootstrap: True, acc: 0.9326, recall: 0.1526
+n_estimators: 100, criterion: log_loss, min_samples_split: 3, bootstrap: False, acc: 0.9321, recall: 0.1771
+n_estimators: 200, criterion: gini, min_samples_split: 2, bootstrap: True, acc: 0.9326, recall: 0.1604
+n_estimators: 200, criterion: gini, min_samples_split: 2, bootstrap: False, acc: 0.9316, recall: 0.1724
+n_estimators: 200, criterion: gini, min_samples_split: 3, bootstrap: True, acc: 0.9323, recall: 0.1658
+n_estimators: 200, criterion: gini, min_samples_split: 3, bootstrap: False, acc: 0.9322, recall: 0.1771
+n_estimators: 200, criterion: entropy, min_samples_split: 2, bootstrap: True, acc: 0.9336, recall: 0.1682
+n_estimators: 200, criterion: entropy, min_samples_split: 2, bootstrap: False, acc: 0.9320, recall: 0.1718
+Success data load
+n_estimators: 200, criterion: entropy, min_samples_split: 3, bootstrap: True, acc: 0.9324, recall: 0.1574
+n_estimators: 200, criterion: entropy, min_samples_split: 3, bootstrap: False, acc: 0.9321, recall: 0.1741
+n_estimators: 200, criterion: log_loss, min_samples_split: 2, bootstrap: True, acc: 0.9329, recall: 0.1610
+n_estimators: 200, criterion: log_loss, min_samples_split: 2, bootstrap: False, acc: 0.9322, recall: 0.1741
+n_estimators: 200, criterion: log_loss, min_samples_split: 3, bootstrap: True, acc: 0.9328, recall: 0.1634
+n_estimators: 200, criterion: log_loss, min_samples_split: 3, bootstrap: False, acc: 0.9325, recall: 0.1813
+n_estimators: 300, criterion: gini, min_samples_split: 2, bootstrap: True, acc: 0.9330, recall: 0.1658
+n_estimators: 300, criterion: gini, min_samples_split: 2, bootstrap: False, acc: 0.9319, recall: 0.1777
+n_estimators: 300, criterion: gini, min_samples_split: 3, bootstrap: True, acc: 0.9324, recall: 0.1634
+Success data load
+n_estimators: 300, criterion: gini, min_samples_split: 3, bootstrap: False, acc: 0.9326, recall: 0.1843
+n_estimators: 300, criterion: entropy, min_samples_split: 2, bootstrap: True, acc: 0.9333, recall: 0.1616
+n_estimators: 300, criterion: entropy, min_samples_split: 2, bootstrap: False, acc: 0.9322, recall: 0.1759
+n_estimators: 300, criterion: entropy, min_samples_split: 3, bootstrap: True, acc: 0.9327, recall: 0.1598
+n_estimators: 300, criterion: entropy, min_samples_split: 3, bootstrap: False, acc: 0.9328, recall: 0.1771
+n_estimators: 300, criterion: log_loss, min_samples_split: 2, bootstrap: True, acc: 0.9335, recall: 0.1628
+n_estimators: 300, criterion: log_loss, min_samples_split: 2, bootstrap: False, acc: 0.9318, recall: 0.1670
+n_estimators: 300, criterion: log_loss, min_samples_split: 3, bootstrap: True, acc: 0.9335, recall: 0.1664
+n_estimators: 300, criterion: log_loss, min_samples_split: 3, bootstrap: False, acc: 0.9322, recall: 0.1735
+Success data load
+Program finished in 1763.89 seconds

@@ -8,7 +8,7 @@ from random_forest import combinations_rf as rf_comb
 from random_forest import evaluate_rf as erf
 import data.load_data as ld
 
-MODEL = 1
+MODEL = 2
 N_THREADS = 4
 threads = []
 
